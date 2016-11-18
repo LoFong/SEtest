@@ -2,7 +2,6 @@
 session_start();
 require("dbconnect.php");
 
-//set the login mark to empty
 $_SESSION['uID'] = "";
 $a=rand(1,10);
 $b=rand(1,10);
